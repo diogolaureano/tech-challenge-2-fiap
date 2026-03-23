@@ -2,10 +2,10 @@
 
 ## 👥 Integrantes
 
-* Bruno
-* Diogo
-* Lucas
-* Victor
+* Bruno da silva santos
+* Diogo Laureano de Sousa
+* Lucas Miguel Ribeiro Silva
+* João Vitor Silveira Cercená
 
 
 ---
