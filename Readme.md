@@ -34,7 +34,7 @@ A aplicação foi construída utilizando Node.js com TypeScript, integrada ao Mo
 
 ---
 
-# Pré-requisitos ⚙️
+# Pré-requisitos
 
 * Node.js 18+
 * Docker + Docker Compose
@@ -43,7 +43,7 @@ A aplicação foi construída utilizando Node.js com TypeScript, integrada ao Mo
 
 ---
 
-# 🚀 Execução da Aplicação
+# Execução da Aplicação
 
 ## 🔹 Usando Docker (RECOMENDADO)
 
