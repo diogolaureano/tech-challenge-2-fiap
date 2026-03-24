@@ -2,10 +2,10 @@
 
 ## 👥 Integrantes
 
-* Bruno
-* Diogo
-* Lucas
-* Victor
+* Bruno da silva santos
+* Diogo Laureano de Sousa
+* Lucas Miguel Ribeiro Silva
+* João Vitor Silveira Cercená
 
 
 ---
@@ -26,7 +26,7 @@
 
 ---
 
-# 📌 Introdução
+#Introdução 📌
 
 Este projeto consiste no desenvolvimento de uma API REST para gerenciamento de postagens (blog), permitindo operações completas de CRUD (Create, Read, Update, Delete), além de busca por palavras-chave.
 
@@ -34,7 +34,7 @@ A aplicação foi construída utilizando Node.js com TypeScript, integrada ao Mo
 
 ---
 
-# ⚙️ Pré-requisitos
+# Pré-requisitos ⚙️
 
 * Node.js 18+
 * Docker + Docker Compose
