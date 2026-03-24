@@ -127,39 +127,39 @@ GET /posts
 tech-challenge-2-fiap/
 ├── .github/
 │   └── workflows/
-│       └── ci.yml                # Pipeline de CI/CD (GitHub Actions)
+│       └── ci.yml              
 │
-├── src/                          # Código-fonte da aplicação
+├── src/                          
 │   ├── config/
-│   │   ├── database.ts           # Conexão com MongoDB
-│   │   └── swagger.ts            # Configuração do Swagger
+│   │   ├── database.ts           
+│   │   └── swagger.ts           
 │   │
 │   ├── modules/
 │   │   └── post/
-│   │       ├── post.controller.ts # Regras de negócio (CRUD)
-│   │       ├── post.model.ts      # Schema do MongoDB (Mongoose)
-│   │       └── post.routes.ts     # Definição das rotas da API
+│   │       ├── post.controller.ts 
+│   │       ├── post.model.ts      
+│   │       └── post.routes.ts    
 │   │
 │   ├── routes/
-│   │   └── index.ts              # Agrupador de rotas
+│   │   └── index.ts              
 │   │
-│   ├── app.ts                    # Configuração do Express
-│   └── server.ts                 # Inicialização do servidor
+│   ├── app.ts                   
+│   └── server.ts                 
 │
 ├── tests/
-│   └── post.test.ts              # Testes unitários com Jest e Supertest
+│   └── post.test.ts              
 │
-├── .dockerignore                 # Arquivos ignorados no build Docker
-├── .env                          # Variáveis de ambiente
-├── .env.example                  # Exemplo de variáveis de ambiente
-├── .gitignore                    # Arquivos ignorados pelo Git
-├── docker-compose.yml            # Orquestração dos containers (API + MongoDB)
-├── Dockerfile                    # Definição da imagem Docker
-├── jest.config.js                # Configuração dos testes
-├── package.json                  # Dependências e scripts
-├── package-lock.json             # Lock de dependências
-├── tsconfig.json                 # Configuração do TypeScript
-└── README.md                     # Documentação do projeto
+├── .dockerignore                 
+├── .env                          
+├── .env.example                  
+├── .gitignore                    
+├── docker-compose.yml            
+├── Dockerfile                    
+├── jest.config.js                
+├── package.json                  
+├── package-lock.json             
+├── tsconfig.json                 
+└── README.md                     
 
 ---
 
