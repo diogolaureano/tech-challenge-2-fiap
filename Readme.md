@@ -26,7 +26,7 @@
 
 ---
 
-#Introdução 📌
+# Introdução
 
 Este projeto consiste no desenvolvimento de uma API REST para gerenciamento de postagens (blog), permitindo operações completas de CRUD (Create, Read, Update, Delete), além de busca por palavras-chave.
 
