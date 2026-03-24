@@ -120,7 +120,7 @@ GET /posts
 
 ---
 
-# 🧠 Arquitetura do Sistema
+# Arquitetura do Sistema
 
 ## Estrutura de Pastas
 
@@ -165,7 +165,7 @@ tech-challenge-2-fiap/
 
 ---
 
-## 🧠 Padrão Utilizado
+## Padrão Utilizado
 
 A arquitetura do projeto segue o princípio de **separação de responsabilidades**, organizada de forma modular para garantir escalabilidade, manutenção e clareza no código.
 
@@ -193,7 +193,7 @@ Essa abordagem modular permite que cada responsabilidade seja isolada, facilitan
 
 ---
 
-# 🔗 API REST
+# API REST
 
 ## Endpoints
 
@@ -223,7 +223,7 @@ Busca por palavra-chave
 
 ---
 
-# 🗄️ Modelo de Dados
+# Modelo de Dados
 
 ```json
 {
@@ -238,7 +238,7 @@ Busca por palavra-chave
 
 ---
 
-# 🐳 Docker e Deploy
+# Docker e Deploy
 
 ## Build manual
 
@@ -254,7 +254,7 @@ docker push SEU_USUARIO/tech-challenge-2-fiap
 
 ---
 
-# ⚙️ CI/CD
+# CI/CD
 
 Pipeline com GitHub Actions:
 
@@ -266,7 +266,7 @@ Pipeline com GitHub Actions:
 
 ---
 
-# 🧪 Testes
+# Testes
 
 Executar:
 
@@ -289,7 +289,7 @@ npm test -- --coverage
 
 ---
 
-# 📘 Swagger
+# Swagger
 
 Documentação disponível em:
 
@@ -305,7 +305,7 @@ Permite:
 
 ---
 
-# 🏆 Considerações Finais
+# Considerações Finais
 
 O projeto demonstra:
 
