@@ -94,7 +94,7 @@ npm run dev
 
 ---
 
-# 📡 Uso Básico
+# Uso Básico
 
 ## Criar Post
 
