@@ -124,28 +124,70 @@ GET /posts
 
 ## Estrutura de Pastas
 
-```
-├── src/
+tech-challenge-2-fiap/
+├── .github/
+│   └── workflows/
+│       └── ci.yml                # Pipeline de CI/CD (GitHub Actions)
+│
+├── src/                          # Código-fonte da aplicação
 │   ├── config/
-│   ├── modules/post/
+│   │   ├── database.ts           # Conexão com MongoDB
+│   │   └── swagger.ts            # Configuração do Swagger
+│   │
+│   ├── modules/
+│   │   └── post/
+│   │       ├── post.controller.ts # Regras de negócio (CRUD)
+│   │       ├── post.model.ts      # Schema do MongoDB (Mongoose)
+│   │       └── post.routes.ts     # Definição das rotas da API
+│   │
 │   ├── routes/
-│   ├── app.ts
-│   └── server.ts
+│   │   └── index.ts              # Agrupador de rotas
+│   │
+│   ├── app.ts                    # Configuração do Express
+│   └── server.ts                 # Inicialização do servidor
+│
 ├── tests/
-├── Dockerfile
-├── docker-compose.yml
-├── package.json
-```
+│   └── post.test.ts              # Testes unitários com Jest e Supertest
+│
+├── .dockerignore                 # Arquivos ignorados no build Docker
+├── .env                          # Variáveis de ambiente
+├── .env.example                  # Exemplo de variáveis de ambiente
+├── .gitignore                    # Arquivos ignorados pelo Git
+├── docker-compose.yml            # Orquestração dos containers (API + MongoDB)
+├── Dockerfile                    # Definição da imagem Docker
+├── jest.config.js                # Configuração dos testes
+├── package.json                  # Dependências e scripts
+├── package-lock.json             # Lock de dependências
+├── tsconfig.json                 # Configuração do TypeScript
+└── README.md                     # Documentação do projeto
 
 ---
 
-## Padrão Utilizado
+## 🧠 Padrão Utilizado
 
-Arquitetura baseada em separação de responsabilidades:
+A arquitetura do projeto segue o princípio de **separação de responsabilidades**, organizada de forma modular para garantir escalabilidade, manutenção e clareza no código.
 
-* Model → acesso ao banco (Mongoose)
-* Controller → regras de negócio
-* Routes → definição dos endpoints
+A estrutura é baseada em camadas bem definidas:
+
+- **Model (post.model.ts)**  
+  Responsável pela definição do schema e interação com o banco de dados MongoDB, utilizando Mongoose para modelagem dos dados.
+
+- **Controller (post.controller.ts)**  
+  Contém a lógica de negócio da aplicação, realizando o processamento das requisições, validações, regras e integração com o Model.
+
+- **Routes (post.routes.ts e routes/index.ts)**  
+  Define os endpoints da API e faz o roteamento das requisições HTTP para os respectivos controllers.
+
+- **Config (src/config)**  
+  Centraliza configurações da aplicação, como conexão com o banco de dados (`database.ts`) e documentação Swagger (`swagger.ts`).
+
+- **App (app.ts)**  
+  Configura os middlewares globais (como JSON e CORS) e registra as rotas da aplicação.
+
+- **Server (server.ts)**  
+  Responsável por inicializar o servidor e estabelecer a conexão com o banco de dados.
+
+Essa abordagem modular permite que cada responsabilidade seja isolada, facilitando testes, manutenção e evolução do sistema.
 
 ---
 
