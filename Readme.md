@@ -124,42 +124,44 @@ GET /posts
 
 ## Estrutura de Pastas
 
+```bash
 tech-challenge-2-fiap/
 ├── .github/
 │   └── workflows/
-│       └── ci.yml              
+│       └── ci.yml
 │
-├── src/                          
+├── src/
 │   ├── config/
-│   │   ├── database.ts           
-│   │   └── swagger.ts           
+│   │   ├── database.ts
+│   │   └── swagger.ts
 │   │
 │   ├── modules/
 │   │   └── post/
-│   │       ├── post.controller.ts 
-│   │       ├── post.model.ts      
-│   │       └── post.routes.ts    
+│   │       ├── post.controller.ts
+│   │       ├── post.model.ts
+│   │       └── post.routes.ts
 │   │
 │   ├── routes/
-│   │   └── index.ts              
+│   │   └── index.ts
 │   │
-│   ├── app.ts                   
-│   └── server.ts                 
+│   ├── app.ts
+│   └── server.ts
 │
 ├── tests/
-│   └── post.test.ts              
+│   └── post.test.ts
 │
-├── .dockerignore                 
-├── .env                          
-├── .env.example                  
-├── .gitignore                    
-├── docker-compose.yml            
-├── Dockerfile                    
-├── jest.config.js                
-├── package.json                  
-├── package-lock.json             
-├── tsconfig.json                 
-└── README.md                     
+├── .dockerignore
+├── .env
+├── .env.example
+├── .gitignore
+├── docker-compose.yml
+├── Dockerfile
+├── jest.config.js
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+└── README.md
+```               
 
 ---
 
