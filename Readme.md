@@ -305,6 +305,20 @@ Permite:
 
 ---
 
+# Dores/Dificuldades enfrentadas durante o desenvolvimento
+Durante o desenvolvimento deste Tech Challenge, foram enfrentados alguns desafios relevantes que contribuíram para o aprendizado ao longo do projeto. Um dos principais pontos foi a definição da arquitetura da aplicação, especialmente na organização das camadas de routes, controllers e models. Garantir a separação adequada de responsabilidades exigiu ajustes iniciais até alcançar uma estrutura mais organizada e de fácil manutenção.
+
+Outro desafio importante foi a integração com o banco de dados, assegurando o correto funcionamento das operações de criação, leitura, atualização e exclusão de postagens. A modelagem dos dados e a consistência das informações também demandaram atenção durante o desenvolvimento.
+
+A implementação dos endpoints REST exigiu cuidado na padronização das respostas e no tratamento de erros, visando manter a qualidade e a clareza da API. Além disso, a configuração do ambiente com Docker apresentou dificuldades iniciais, principalmente na comunicação entre os serviços e na estabilização dos containers.
+
+A automação com GitHub Actions, voltada para CI/CD, também demandou ajustes para garantir a execução correta dos workflows a cada alteração no código. Por fim, a documentação do projeto foi elaborada com atenção, buscando fornecer instruções claras para execução e entendimento da aplicação.
+
+De forma geral, os desafios enfrentados contribuíram para o desenvolvimento de boas práticas, especialmente em organização de código, uso de containers e automação de processos.
+
+
+
+
 # Considerações Finais
 
 O projeto demonstra:
@@ -315,5 +329,8 @@ O projeto demonstra:
 * Automação com CI/CD
 * Testes automatizados
 * Documentação com Swagger
+
+
+
 
 
